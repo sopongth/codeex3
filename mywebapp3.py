@@ -8,13 +8,8 @@ import mediapipe as mp
 import os
 from twilio.rest import Client
 
-#account_sid = os.environ['TWILIO_ACCOUNT_SID']
-#auth_token = os.environ['TWILIO_AUTH_TOKEN']
-os.environ['TWILIO_ACCOUNT_SID']='AC299c5b172bd928807ac3b0004ac6778d'
-os.environ['TWILIO_AUTH_TOKEN']='8f8280a04c29d4242520b80b8de09f0a'
-
-account_sid=os.environ['TWILIO_ACCOUNT_SID']
-auth_token=os.environ['TWILIO_AUTH_TOKEN']
+account_sid = os.environ['TWILIO_ACCOUNT_SID']
+auth_token = os.environ['TWILIO_AUTH_TOKEN']
 
 client = Client(account_sid, auth_token)
 
